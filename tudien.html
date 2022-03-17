@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>từ điển</title>
+</head>
+<body>
+<script>
+    let anh = ['dog','cat','pink','chicken'];
+    let viet = ['chó','mèo','lợn','gà'];
+    let i = prompt('nhập từ cần tìm kiếm');
+    let vitri = anh.indexOf(i);
+    if (vitri == -1) {
+        alert('không tìm được');
+    } else {
+        alert(viet[vitri]);
+    }
+</script>
+</body>
+</html>
